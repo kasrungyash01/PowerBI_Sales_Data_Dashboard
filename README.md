@@ -113,27 +113,21 @@ The datasets were combined, cleaned, and transformed to create a unified reporti
 
 This project includes supporting documentation:
 
-* **docs/Sales_Performance_Analysis_Report.pdf** – Detailed project report covering dashboard analysis, KPI performance, product category analysis, customer insights, geographic sales analysis, and business recommendations.
-* **docs/BRD_PowerBI_Sales_Dashboard.pdf** – Business Requirements Document (BRD) describing project objectives, scope, stakeholders, business requirements, functional requirements, data requirements, KPIs, and success criteria.
+* **Sales_Performance_Analysis_Report.pdf** – Detailed project report covering dashboard analysis, KPI performance, product category analysis, customer insights, geographic sales analysis, and business recommendations.
+* **BRD_PowerBI_Sales_Dashboard.pdf** – Business Requirements Document (BRD) describing project objectives, scope, stakeholders, business requirements, functional requirements, data requirements, KPIs, and success criteria.
 
 ---
 
 ## Project Structure
 
-```bash id="13vfl8"
+```bash
 Sales-Data-Dashboard/
 │
-├── data/
-│   ├── Sales Data 2023.csv
-│   └── Sales Data 2024.csv
-│
-├── source/
-│   └── dashboard.pbix
-│
-├── docs/
-│   ├── Sales_Performance_Analysis_Report.pdf
-│   └── BRD_PowerBI_Sales_Dashboard.pdf
-│
+├── Sales Data 2023.csv
+├── Sales Data 2024.csv
+├── dashboard.pbix
+├── Sales_Performance_Analysis_Report.pdf
+├── BRD_PowerBI_Sales_Dashboard.pdf
 └── README.md
 ```
 
@@ -149,14 +143,14 @@ Sales-Data-Dashboard/
 
 1. Clone the repository:
 
-```bash id="fdvcgb"
+```bash
 git clone https://github.com/your-username/sales-data-dashboard.git
 ```
 
-2. Open the Power BI file from the **source** folder:
+2. Open the Power BI file:
 
-```bash id="gkm3yv"
-source/dashboard.pbix
+```bash
+dashboard.pbix
 ```
 
 3. Refresh the data sources if required.
